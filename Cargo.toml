@@ -16,4 +16,7 @@ rustc-serialize = "*"
 cbor = "*"
 sodiumoxide = "0.0.4"
 rand = "*"
-accumulator = "0.0.1"
+#accumulator = "0.0.1"
+
+[dependencies.accumulator]
+git="https://github.com/BSMaidSafe/accumulator.git"
