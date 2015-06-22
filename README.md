@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/maidsafe/sentinel.png?label=ready&title=Ready)](https://waffle.io/maidsafe/sentinel)
 # Sentinel
 
 **Primary Maintainer:**     Peter Jankuliak (peter.jankuliak@maidsafe.net)
