@@ -1,11 +1,5 @@
 # Sentinel - Change Log
 
-## [0.1.2]
-- Rename Sentinel to PureSentinel in routing
-- Modify PureSentinel to use dynamic threshold values
-- Modify KeySentinel to use dynamic threshold values
-- Replace the AccountSentinel with the accumulator we have in Routing
-
 ## [0.1.1]
 - Updated dependencies' versions
 
