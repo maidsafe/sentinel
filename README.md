@@ -15,9 +15,3 @@
 #Overview
 Confirm group based consensus on messages in a p2p network
 
-## [0.1.2] - RUST-3 Tasks
-
-- [ ] [MAID-1151](https://maidsafe.atlassian.net/browse/MAID-1151) MAID-1152 Rename Sentinel to PureSentinel in routing
-- [ ] [MAID-1153](https://maidsafe.atlassian.net/browse/MAID-1153) MAID-1152 Modify PureSentinel to use dynamic threshold values
-- [ ] [MAID-1155](https://maidsafe.atlassian.net/browse/MAID-1155) MAID-1152 Modify KeySentinel to use dynamic threshold values
-- [ ] [MAID-1184](https://maidsafe.atlassian.net/browse/MAID-1184) MAID-1152 Replace the AccountSentinel with the accumulator we have in Routing
