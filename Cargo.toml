@@ -1,6 +1,6 @@
 [package]
 name = "sentinel"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["MaidSafe Developers <dev@maidsafe.net>"]
 description = "Peer-to-peer network group consensus and PKI-like ID confirmation"
 documentation = "http://maidsafe.net/sentinel/latest"

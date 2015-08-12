@@ -1,4 +1,6 @@
 # Sentinel - Change Log
+## [0.1.3]
+- change dependency back to sodiumoxide (from maidsafe_sodiumoxide)
 
 ## [0.1.2]
 - Rename Sentinel to PureSentinel in routing
