@@ -254,7 +254,7 @@ mod test {
 
     fn generate_random_name() -> TestName {
         let mut arr = [0u8;NAMESIZE];
-        for i in (0..NAMESIZE) {
+        for i in 0..NAMESIZE {
             arr[i] = random::<u8>();
         }
         TestName { data: arr.to_vec() }
