@@ -145,7 +145,7 @@ mod test {
 
     fn generate_random_message() -> Vec<u8> {
         let mut arr = [0u8;MESSAGE_SIZE];
-        for i in (0..MESSAGE_SIZE) {
+        for i in 0..MESSAGE_SIZE {
             arr[i] = random::<u8>();
         }
         arr.to_vec()

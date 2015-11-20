@@ -1,5 +1,8 @@
 # Sentinel - Change Log
 
+## [0.1.3]
+- Remove wildcard dependencies
+
 ## [0.1.2]
 - Rename Sentinel to PureSentinel in routing
 - Modify PureSentinel to use dynamic threshold values

@@ -96,14 +96,14 @@ mod test {
 
     fn random_key() -> sign::PublicKey {
         let mut arr = [0u8;sign::PUBLICKEYBYTES];
-        for i in (0..sign::PUBLICKEYBYTES) {
+        for i in 0..sign::PUBLICKEYBYTES {
             arr[i] = random::<u8>();
         }
         sign::PublicKey(arr)
     }
 
     fn add_noise(ks: &mut KeyStore<NameType>, target: NameType, quantity: usize) {
-        for _ in (0..quantity) {
+        for _ in 0..quantity {
             ks.add_key(target, random::<NameType>(), random_key());
         }
     }
@@ -116,7 +116,7 @@ mod test {
 
         add_noise(&mut ks, target, 1000);
 
-        for i in (1..QUORUM + 1) {
+        for i in 1..QUORUM + 1 {
             ks.add_key(target, i as NameType, valid_key);
 
             if i < QUORUM {
@@ -136,7 +136,7 @@ mod test {
         add_noise(&mut ks, target, 1000);
 
         // Node zero sends signature for zero, that shouldn't be valid.
-        for i in (0..QUORUM) {
+        for i in 0..QUORUM {
             ks.add_key(target, i as NameType, valid_key);
             assert!(ks.get_accumulated_keys(&target, QUORUM).is_empty());
         }
@@ -151,7 +151,7 @@ mod test {
 
         add_noise(&mut ks, target, 1000);
 
-        for i in (1..QUORUM + 1) {
+        for i in 1..QUORUM + 1 {
             ks.add_key(target, i as NameType, valid_key1);
 
             if i < QUORUM {
@@ -161,7 +161,7 @@ mod test {
             }
         }
 
-        for i in (1..QUORUM + 1) {
+        for i in 1..QUORUM + 1 {
             ks.add_key(target, i as NameType, valid_key2);
 
             if i < QUORUM {
